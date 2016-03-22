@@ -35,6 +35,7 @@
 		C25D5F8C1CA1111D00C68C90 /* Shop.m in Sources */ = {isa = PBXBuildFile; fileRef = C25D5F8B1CA1111D00C68C90 /* Shop.m */; };
 		C25D5F8F1CA1116000C68C90 /* WaterfallLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = C25D5F8E1CA1116000C68C90 /* WaterfallLayout.m */; };
 		C25D5F921CA11CE500C68C90 /* WaterfallImageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C25D5F911CA11CE500C68C90 /* WaterfallImageCell.m */; };
+		C25D5F951CA12F2500C68C90 /* WaterfallFooterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C25D5F941CA12F2500C68C90 /* WaterfallFooterView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -109,6 +110,8 @@
 		C25D5F8E1CA1116000C68C90 /* WaterfallLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallLayout.m; sourceTree = "<group>"; };
 		C25D5F901CA11CE500C68C90 /* WaterfallImageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallImageCell.h; sourceTree = "<group>"; };
 		C25D5F911CA11CE500C68C90 /* WaterfallImageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallImageCell.m; sourceTree = "<group>"; };
+		C25D5F931CA12F2500C68C90 /* WaterfallFooterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterfallFooterView.h; sourceTree = "<group>"; };
+		C25D5F941CA12F2500C68C90 /* WaterfallFooterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterfallFooterView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,6 +178,8 @@
 				C25D5F8E1CA1116000C68C90 /* WaterfallLayout.m */,
 				C25D5F901CA11CE500C68C90 /* WaterfallImageCell.h */,
 				C25D5F911CA11CE500C68C90 /* WaterfallImageCell.m */,
+				C25D5F931CA12F2500C68C90 /* WaterfallFooterView.h */,
+				C25D5F941CA12F2500C68C90 /* WaterfallFooterView.m */,
 			);
 			path = WaterFall;
 			sourceTree = "<group>";
@@ -183,8 +188,8 @@
 			isa = PBXGroup;
 			children = (
 				C25D5F581CA0ECA800C68C90 /* 1.plist */,
-				C25D5F591CA0ECA800C68C90 /* 2.plist */,
 				C25D5F5A1CA0ECA800C68C90 /* 3.plist */,
+				C25D5F591CA0ECA800C68C90 /* 2.plist */,
 				C25D5F261CA0EA7A00C68C90 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -385,6 +390,7 @@
 				C25D5F871CA0ECC000C68C90 /* UIImageView+HighlightedWebCache.m in Sources */,
 				C25D5F7F1CA0ECC000C68C90 /* SDWebImageDecoder.m in Sources */,
 				C25D5F2D1CA0EA7A00C68C90 /* ViewController.m in Sources */,
+				C25D5F951CA12F2500C68C90 /* WaterfallFooterView.m in Sources */,
 				C25D5F7E1CA0ECC000C68C90 /* SDWebImageCompat.m in Sources */,
 				C25D5F2A1CA0EA7A00C68C90 /* AppDelegate.m in Sources */,
 				C25D5F7C1CA0ECC000C68C90 /* NSData+ImageContentType.m in Sources */,

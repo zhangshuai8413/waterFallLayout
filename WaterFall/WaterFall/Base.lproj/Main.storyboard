@@ -68,7 +68,7 @@
                                 </connections>
                             </collectionViewCell>
                         </cells>
-                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FooterView" id="a70-qi-x3O">
+                        <collectionReusableView key="sectionFooterView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="FooterView" id="a70-qi-x3O" customClass="WaterfallFooterView">
                             <rect key="frame" x="0.0" y="197" width="600" height="50"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
@@ -81,6 +81,9 @@
                                 <constraint firstItem="BO0-bx-AzG" firstAttribute="centerY" secondItem="a70-qi-x3O" secondAttribute="centerY" id="AM8-IL-9Bo"/>
                                 <constraint firstItem="BO0-bx-AzG" firstAttribute="centerX" secondItem="a70-qi-x3O" secondAttribute="centerX" id="e2r-dC-poc"/>
                             </constraints>
+                            <connections>
+                                <outlet property="indicator" destination="BO0-bx-AzG" id="OAw-3l-ZNT"/>
+                            </connections>
                         </collectionReusableView>
                         <connections>
                             <outlet property="dataSource" destination="XP3-RD-5Rp" id="nrE-NT-wpX"/>
