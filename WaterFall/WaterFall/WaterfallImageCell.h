@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  WaterfallImageCell.h
 //  WaterFall
 //
 //  Created by kakao on 16/3/22.
@@ -7,9 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Shop;
+@interface WaterfallImageCell : UICollectionViewCell
 
-@interface ViewController : UICollectionViewController
-
-
+@property(nonatomic,strong) Shop *shop;
 @end
-
